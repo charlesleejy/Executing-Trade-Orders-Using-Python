@@ -36,14 +36,6 @@ def moving_average(prices, n):
     return ma
 
 
-ma = moving_average([2,3,4,5,8,5,4,3,2,1], 3)
-[round(m, 2) if m is not None else None for m in ma]
-
-
-moving_average([2,3,4,5,8,5,4,3,2,1], 2)
-
-
-
 def cross_overs(prices1, prices2):
     """ 
     Identify cross-over indices for two equal-length lists of prices (here: moving averages)
